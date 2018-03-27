@@ -1,0 +1,17 @@
+var f, n;
+procedure fact;
+	var ans;
+	begin
+		ans:=n;
+		n:= n-1;
+		if n < 0 then f := -1;
+		if n = 0 then f := 1
+		else call fact;
+		f:=f*ans;
+
+	end;
+begin
+	read(n);
+	call fact;
+	write(f);
+end.

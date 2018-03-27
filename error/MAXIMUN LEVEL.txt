@@ -1,0 +1,35 @@
+var a;
+procedure one;
+var a;
+	procedure two;
+	var a;
+		procedure three;
+		var a;
+			procedure four;
+			var a;
+			begin
+				a:=100;
+				write(a);
+			end;
+		begin
+			a:=4232;
+			write(a);
+		end;
+	begin
+		a:=56;
+		write(a);
+		call three;
+
+	end;
+begin
+	a:=45;
+	write(a);
+	call two;
+end;
+
+begin
+	a:=12;
+	write(a);
+	call one;
+	write(a);
+end.

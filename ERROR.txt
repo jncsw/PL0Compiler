@@ -1,0 +1,35 @@
+var const;
+const notUsed:=100;
+
+const a=10;
+var b,c;
+procedure p;
+begin
+  c=b+a;
+
+
+  notU :=100;
+  a:=10;
+  
+  c:= p;
+end;
+begin
+  read b;
+
+
+  
+while a#0;
+
+  call b;
+  call;
+  if a read(b);
+  
+
+
+  while b#0 do
+    begin
+      call  p;
+      write(2*c);
+      read(b)
+     end
+end;

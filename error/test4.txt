@@ -1,0 +1,22 @@
+var x,y;
+
+procedure f;
+var tmp;
+begin
+	tmp := x+y;
+	write(tmp);
+	x :=y;
+	y:= tmp;
+	
+end;
+var cnt;
+begin
+	x := 1;
+	y:=1;
+	read(cnt);
+	while cnt#0 do
+	begin
+		cnt := cnt -1;
+		call f;
+	end;
+end.

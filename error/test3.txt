@@ -1,0 +1,13 @@
+var a,b;
+begin
+	read(a);
+	read(b);
+	if a=100 then
+		b:=a
+	else
+		a := b - 32;
+	write(a);
+	write(b);
+	
+	
+end.
